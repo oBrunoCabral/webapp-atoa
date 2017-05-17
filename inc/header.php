@@ -24,7 +24,7 @@
 		<!-- Image and text -->
 		<nav class="navbar navbar-inverse bg-inverse">
 		  <a class="navbar-brand" href="#">
-		    <img src="/assets/brand/bootstrap-solid.svg" width="30" height="50" class="d-inline-block align-top" alt="">
+		    <img src="assets/img_navbar.jpg" width="50" height="50" class="d-inline-block align-top" alt="">
 		    Jogos de Novo
 		  </a>
 		</nav>

@@ -18,13 +18,24 @@
     // });
 
 
-    $("button").click(function(){
-      $("#teste").animate({
-        width: "80%",
-        borderWidth: "10px"
-      }, 1500 );
-    });
-      
+        // MOSTRAR LISTA INICIALMENTE
+        $("#btnMostraTabela").click(function(){
+          $("#tblProd").show( "slow", function(){
+            //animação completa
+          });
+          $("#btnMostraTabela").hide("fast", function(){
+            //esconde
+          });
+          $("#btnAtualizaDiv").show("fast", function(){
+            //mostra
+          });
+        });
+
+        $("#btnAtualizaDiv").click(function(){
+          $("#tblProd").toggle().toggle();
+        });
+
+
     </script>
 
 
